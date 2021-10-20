@@ -2,4 +2,4 @@
 
 | week | name | note | demo |
 |--|--|--|--|
-| 01 | |[note]() | [Demo]() |
+| 01 | |[note](https://joy-port.github.io/vue4weeks/01) | [Demo](https://joy-port.github.io/vue4weeks/01) |
