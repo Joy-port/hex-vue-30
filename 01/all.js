@@ -4,7 +4,7 @@ Vue.createApp({
             status: true,
             favorite: true,
             data: [],
-            filterData: []
+            genderFilter: ''
         }
     },
     created(){
@@ -20,13 +20,21 @@ Vue.createApp({
             console.log(err);
              });
         },
-        filterMale: function (){
-          return this.data = this.data.filter(item => item.gender === "male" );
-        },
-        filterFemale: function (){
-          return this.data = this.data.filter(item => item.gender === "female" );
-        },
+//         filterMale: function (){
+//           return this.data = this.data.filter(item => item.gender === "male" );
+//         },
+//         filterFemale: function (){
+//           return this.data = this.data.filter(item => item.gender === "female" );
+//         },
         
+    },
+    computed:{
+        filterGender(){
+        const newData = this.data.filter(item =>{
+            return item.gender === this.genderFilter
+        })
+        return newData ;
+        }
     },
     mounted(){
     this.getData();
