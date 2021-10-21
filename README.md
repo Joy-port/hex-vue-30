@@ -4,4 +4,5 @@
 
 | week | name | note | demo |
 |--|--|--|--|
-| 01 | |[note](https://joy-port.github.io/vue4weeks/01) | [Demo](https://joy-port.github.io/vue4weeks/01) |
+| 01 | Simple Dating Web | [](https://joy-port.github.io/vue4weeks/01) | [Demo](https://joy-port.github.io/vue4weeks/01) |
+| 02 | Calculator | [](https://joy-port.github.io/vue4weeks/01) | [Demo](https://joy-port.github.io/vue4weeks/02) |
